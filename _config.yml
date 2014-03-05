@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://davidjnelson.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://david-j-nelson.com
+title: David J. Nelson's Blog
+subtitle: Software architecture and engineering, with a focus on single page applications.
+author: David Nelson
 simple_search: http://google.com/search
 description:
 
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/github
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
@@ -63,13 +63,15 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user: davidjnelson
+github_repo_count: 10
 github_show_profile_link: true
 github_skip_forks: true
 
+hn_like_button: true
+
 # Twitter
-twitter_user:
+twitter_user: david_j_nelson
 twitter_tweet_button: true
 
 # Google +1
@@ -90,11 +92,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: davidjnelsonsblog
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-6242674-17
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
