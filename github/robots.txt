@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://david-j-nelson.com/sitemap.xml 
