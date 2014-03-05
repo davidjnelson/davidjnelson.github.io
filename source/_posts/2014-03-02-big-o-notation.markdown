@@ -28,3 +28,4 @@ Resources For Additional Learning:
 2. (Big-O complexities of common algorithms used in Computer Science)[http://bigocheatsheet.com/]
 3. (Stanford University, Algorithms: Design and Analysis, Part 1 Coursera Course)[https://www.coursera.org/course/algo]
 4. (Big O of Javascript Arrays)[http://stackoverflow.com/questions/11514308/big-o-of-javascript-arrays]
+5. (Constant Amortized Time) [http://stackoverflow.com/questions/200384/constant-amortized-time]
