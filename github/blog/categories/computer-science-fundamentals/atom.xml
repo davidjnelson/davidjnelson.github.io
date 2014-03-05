@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: computer-science-fundamentals | David J. Nelson's Blog]]></title>
+  <link href="http://david-j-nelson.com/blog/categories/computer-science-fundamentals/atom.xml" rel="self"/>
+  <link href="http://david-j-nelson.com/"/>
+  <updated>2014-03-04T21:57:26-08:00</updated>
+  <id>http://david-j-nelson.com/</id>
+  <author>
+    <name><![CDATA[David Nelson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Computer Science Fundamentals Series]]></title>
+    <link href="http://david-j-nelson.com/blog/2014/03/02/computer-science-fundementals-series/"/>
+    <updated>2014-03-02T18:46:00-08:00</updated>
+    <id>http://david-j-nelson.com/blog/2014/03/02/computer-science-fundementals-series</id>
+    <content type="html"><![CDATA[<p>This is the kickoff post for a new series of blog posts I&rsquo;m starting focused on computer science fundamentals.  The goal is to cover the basic building blocks of computer science.  I hope you enjoy it!  :&ndash;)</p>
+]]></content>
+  </entry>
+  
+</feed>

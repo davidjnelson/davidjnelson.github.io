@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://david-j-nelson.com/blog/2014/03/02/computer-science-fundementals-series/</loc>
+        <lastmod>2014-03-02T23:56:09-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://david-j-nelson.com/blog/2014/03/02/big-o-notation/</loc>
+        <lastmod>2014-03-03T16:06:21-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://david-j-nelson.com/blog/archives/</loc>
+        <lastmod>2014-03-04T21:35:39-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://david-j-nelson.com/</loc>
+        <lastmod>2014-03-04T21:35:39-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://david-j-nelson.com/robots.txt</loc>
+        <lastmod>2014-03-04T21:35:39-08:00</lastmod>
+    </url>
+</urlset>
