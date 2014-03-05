@@ -4,7 +4,7 @@
   <title><![CDATA[David J. Nelson's Blog]]></title>
   <link href="http://david-j-nelson.com/atom.xml" rel="self"/>
   <link href="http://david-j-nelson.com/"/>
-  <updated>2014-03-04T21:57:26-08:00</updated>
+  <updated>2014-03-04T22:02:10-08:00</updated>
   <id>http://david-j-nelson.com/</id>
   <author>
     <name><![CDATA[David Nelson]]></name>
@@ -18,7 +18,29 @@
     <link href="http://david-j-nelson.com/blog/2014/03/02/big-o-notation/"/>
     <updated>2014-03-02T18:52:00-08:00</updated>
     <id>http://david-j-nelson.com/blog/2014/03/02/big-o-notation</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Big O Notation is a way to measure how well a computer algorithm scales as the amount of data involved increases.  I will use the javascript programming language throughout this series for the code examples.</p>
+
+<h2>O(1)</h2>
+
+<p>O(1) is read as &quot;order of one&quot;, or &quot;constant time&quot; and means that this algorithm will scale infinitely well regardless of the input size.  An example of an operation that runs in constant time is that of adding an element to an array that does not require the array to be resized:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>  var theArray = new Array(1);
+</span><span class='line'>  theArray[0] = 'Hello!';</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Note that since we initialized the array to only have a length of 1, if we were to insert a second element into the array it would have to resize, and so inserts to this array would no longer be guaranteed to run in constant time.  This is somewhat specific to the particular javascript vm you are using, but in general you will get amortized constant time [5] for array inserts in javascript [4].</p>
+
+<h2>Resources For Additional Learning:</h2>
+
+<ol>
+<li>(Derek Banas, Big O Notations Youtube Video)[<a href="http://www.youtube.com/watch?v=V6mKVRU1evU">http://www.youtube.com/watch?v=V6mKVRU1evU</a>]</li>
+<li>(Big-O complexities of common algorithms used in Computer Science)[<a href="http://bigocheatsheet.com/">http://bigocheatsheet.com/</a>]</li>
+<li>(Stanford University, Algorithms: Design and Analysis, Part 1 Coursera Course)[<a href="https://www.coursera.org/course/algo">https://www.coursera.org/course/algo</a>]</li>
+<li>(Big O of Javascript Arrays)[<a href="http://stackoverflow.com/questions/11514308/big-o-of-javascript-arrays">http://stackoverflow.com/questions/11514308/big-o-of-javascript-arrays</a>]</li>
+</ol>
+
 ]]></content>
   </entry>
   

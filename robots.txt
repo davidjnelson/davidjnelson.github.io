@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://davidjnelson.github.io/sitemap.xml 
+Sitemap: http://david-j-nelson.com/sitemap.xml 
